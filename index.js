@@ -14,7 +14,7 @@ const  fetchdata =()=>{
             setTimeout(()=>{
             advicesomeone.append(par)
             advicesomeone.append(ima)
-        },2000)
+        },3000)
         });
     })
 }
