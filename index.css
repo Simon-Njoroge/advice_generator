@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(32,38,50,255);
+}
+.advice{
+    margin: 10% 35%;
+    background: rgba(49,58,73,255);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.adviceN p{
+    color:#42a17b ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.adviceme p{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.adviceme img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.diceimg img{
+    border: 1px solid rgba(83,255,170,255);
+    padding: 10px;
+    border-radius: 100%;
+    background-color: rgba(83,255,170,255);
+    position: relative;
+    bottom: -55px;
+    cursor: pointer;
+}
+
+.attribution{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+.attribution a{
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 768px){
+    .advice{
+        margin: 10% 10%;
+        background: rgba(49,58,73,255);
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .adviceme p{
+        color: whitesmoke;
+        font-size: 30px;
+       flex-wrap: wrap;
+    }
+}
